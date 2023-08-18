@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T02:34:21.981Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="jNZlTk-MdkhgKuX7jvIr" version="21.6.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-18T02:34:31.304Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="T0sQE9kVfW1soD0Bc_Vf" version="21.6.8" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="优化前">
     <mxGraphModel dx="1434" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,7 +114,7 @@
         <mxCell id="WopL_6NV37nL1DsF0AY_-1" value="compute-1" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=16;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="160" y="120" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="WopL_6NV37nL1DsF0AY_-2" value="compute-2" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=16;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="WopL_6NV37nL1DsF0AY_-2" value="compute-2" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=16;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="320" y="120" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="WopL_6NV37nL1DsF0AY_-3" value="compue-3" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=16;verticalAlign=middle;" vertex="1" parent="1">
