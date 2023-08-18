@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T05:58:18.523Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="lIvmJpOz01k7M0Ufwm75" version="21.6.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-08-18T05:59:36.560Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="--bvEM6Q3A5zqxXlniBb" version="21.6.8" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="优化前">
     <mxGraphModel dx="1434" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -358,7 +358,7 @@
         <mxCell id="1" parent="0" />
         <mxCell id="JFB_YXGDzCpCTszWC1LC-10" value="L3Scheduler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="520" height="86" as="geometry">
-            <mxRectangle x="230" y="170" width="100" height="30" as="alternateBounds" />
+            <mxRectangle x="40" y="40" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JFB_YXGDzCpCTszWC1LC-11" value="+ _choose_router_agent(self, context, plugin, candidates, sync_router) -&gt; Agent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="JFB_YXGDzCpCTszWC1LC-10">
@@ -369,6 +369,9 @@
         </mxCell>
         <mxCell id="JFB_YXGDzCpCTszWC1LC-13" value="+ _choose_router_agents_for_ha(self, context, plugin, candidates, sync_router) -&gt; List[Agent]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="JFB_YXGDzCpCTszWC1LC-10">
           <mxGeometry y="60" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JFB_YXGDzCpCTszWC1LC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="JFB_YXGDzCpCTszWC1LC-14" target="JFB_YXGDzCpCTszWC1LC-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JFB_YXGDzCpCTszWC1LC-14" value="LeastRoutersScheduler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="40" y="180" width="520" height="86" as="geometry">
@@ -383,6 +386,9 @@
         </mxCell>
         <mxCell id="JFB_YXGDzCpCTszWC1LC-17" value="+ _choose_router_agents_for_ha(self, context, plugin, candidates, sync_router) -&gt; List[Agent]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="JFB_YXGDzCpCTszWC1LC-14">
           <mxGeometry y="60" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JFB_YXGDzCpCTszWC1LC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="JFB_YXGDzCpCTszWC1LC-18" target="JFB_YXGDzCpCTszWC1LC-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JFB_YXGDzCpCTszWC1LC-18" value="PreferredL3AgentRoutersScheduler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="40" y="320" width="520" height="86" as="geometry">
