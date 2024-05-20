@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T05:48:10.354Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="mm3rU02lR_6mrO8nlS6D" version="24.4.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-05-20T05:54:13.990Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="v6NIUmmAxqqJhrXG9Qa6" version="24.4.4" type="github" pages="12">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="优化前" />
   <diagram id="7nN11qzmvJIP0oRHpXtm" name="优化后">
     <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
@@ -636,6 +636,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VsZD_lSTbJ4OWEJjrt2P-23" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Helvetica&quot;&gt;Kubernetes&lt;/font&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="165" y="870" width="220" height="110" as="geometry" />
+        </mxCell>
         <mxCell id="VsZD_lSTbJ4OWEJjrt2P-2" value="tacker-client" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="220" y="180" width="120" height="60" as="geometry" />
         </mxCell>
@@ -679,13 +682,22 @@
           <mxGeometry x="25" y="760" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VsZD_lSTbJ4OWEJjrt2P-18" value="Tacker DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=16;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="600" y="640" width="200" height="120" as="geometry" />
+          <mxGeometry x="600" y="620" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VsZD_lSTbJ4OWEJjrt2P-19" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;DB Interface&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=15;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="605" y="710" width="85" height="30" as="geometry" />
+          <mxGeometry x="605" y="690" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VsZD_lSTbJ4OWEJjrt2P-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;mariadb&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=15;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="710" y="710" width="85" height="30" as="geometry" />
+          <mxGeometry x="710" y="690" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VsZD_lSTbJ4OWEJjrt2P-25" value="&lt;font face=&quot;Helvetica&quot;&gt;VNF (Contianer)&lt;/font&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="205" y="920" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VsZD_lSTbJ4OWEJjrt2P-26" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Helvetica&quot;&gt;OpenStack&lt;/font&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="414" y="870" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VsZD_lSTbJ4OWEJjrt2P-27" value="&lt;font face=&quot;Helvetica&quot;&gt;VNF (VM)&lt;/font&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="454" y="920" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
