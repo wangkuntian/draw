@@ -43,11 +43,14 @@
         <mxCell id="KOOwxzatVmSpQnOnulVU-27" value="Router namespace" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="360" y="200" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KOOwxzatVmSpQnOnulVU-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KOOwxzatVmSpQnOnulVU-28" target="KOOwxzatVmSpQnOnulVU-23">
+        <mxCell id="KOOwxzatVmSpQnOnulVU-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="KOOwxzatVmSpQnOnulVU-28" target="KOOwxzatVmSpQnOnulVU-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KOOwxzatVmSpQnOnulVU-28" value="qr-yyy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KOOwxzatVmSpQnOnulVU-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="KOOwxzatVmSpQnOnulVU-30" target="KOOwxzatVmSpQnOnulVU-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KOOwxzatVmSpQnOnulVU-30" value="qg-zzz" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="225" width="60" height="30" as="geometry" />
