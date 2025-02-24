@@ -25,7 +25,7 @@
         <mxCell id="KOOwxzatVmSpQnOnulVU-17" value="br-int" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry y="360" width="800" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KOOwxzatVmSpQnOnulVU-18" value="qvo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KOOwxzatVmSpQnOnulVU-18" value="qvo-xxx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="385" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KOOwxzatVmSpQnOnulVU-19" value="DHCP namespace" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -37,7 +37,7 @@
         <mxCell id="KOOwxzatVmSpQnOnulVU-21" value="qr-dhcp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="225" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KOOwxzatVmSpQnOnulVU-23" value="qr-xxx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KOOwxzatVmSpQnOnulVU-23" value="qr-yyy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="385" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KOOwxzatVmSpQnOnulVU-25" value="qr-dhcp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
