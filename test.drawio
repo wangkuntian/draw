@@ -43,7 +43,7 @@
         <mxCell id="KOOwxzatVmSpQnOnulVU-27" value="Router namespace" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="570" y="200" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="e4THsjY1m9CHqS4a6q61-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KOOwxzatVmSpQnOnulVU-28" target="KOOwxzatVmSpQnOnulVU-23">
+        <mxCell id="e4THsjY1m9CHqS4a6q61-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="KOOwxzatVmSpQnOnulVU-28" target="KOOwxzatVmSpQnOnulVU-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KOOwxzatVmSpQnOnulVU-28" value="qr-aaa" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -99,7 +99,7 @@
         <mxCell id="e4THsjY1m9CHqS4a6q61-14" value="tap-yyy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="225" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="e4THsjY1m9CHqS4a6q61-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e4THsjY1m9CHqS4a6q61-15" target="e4THsjY1m9CHqS4a6q61-18">
+        <mxCell id="e4THsjY1m9CHqS4a6q61-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="e4THsjY1m9CHqS4a6q61-15" target="e4THsjY1m9CHqS4a6q61-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e4THsjY1m9CHqS4a6q61-15" value="qvb-yyy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
