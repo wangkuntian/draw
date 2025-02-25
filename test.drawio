@@ -721,7 +721,7 @@
         <mxCell id="sfEOSNFwY_53gmutpGlZ-0" value="Edge B" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="i5zVYjoM5udtA_9OdhGD-1">
           <mxGeometry x="950" y="80" width="890" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="sfEOSNFwY_53gmutpGlZ-1" value="Container A" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="i5zVYjoM5udtA_9OdhGD-1">
+        <mxCell id="sfEOSNFwY_53gmutpGlZ-1" value="Container C" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="i5zVYjoM5udtA_9OdhGD-1">
           <mxGeometry x="1010" y="100" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sfEOSNFwY_53gmutpGlZ-2" value="eth0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i5zVYjoM5udtA_9OdhGD-1">
@@ -804,7 +804,7 @@
         <mxCell id="sfEOSNFwY_53gmutpGlZ-27" value="vxlan-0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i5zVYjoM5udtA_9OdhGD-1">
           <mxGeometry x="1430" y="535" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sfEOSNFwY_53gmutpGlZ-28" value="Container B" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="i5zVYjoM5udtA_9OdhGD-1">
+        <mxCell id="sfEOSNFwY_53gmutpGlZ-28" value="Container D" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="i5zVYjoM5udtA_9OdhGD-1">
           <mxGeometry x="1180" y="100" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sfEOSNFwY_53gmutpGlZ-29" value="eth0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i5zVYjoM5udtA_9OdhGD-1">
