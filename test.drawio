@@ -886,7 +886,7 @@
         <mxCell id="l0kk6VriSMzFkSJtHRCP-2" value="HostStack=Center" style="rounded=0;whiteSpace=wrap;html=1;arcSize=40;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l0kk6VriSMzFkSJtHRCP-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;dashed=1;" edge="1" parent="1">
+        <mxCell id="l0kk6VriSMzFkSJtHRCP-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="l0kk6VriSMzFkSJtHRCP-2" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="99.71" y="1200" as="targetPoint" />
             <mxPoint x="99.73857142857135" y="100" as="sourcePoint" />
