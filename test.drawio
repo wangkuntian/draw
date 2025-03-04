@@ -297,7 +297,7 @@
       <root>
         <mxCell id="ND7bHLR5GJCtJYwD09gh-0" />
         <mxCell id="ND7bHLR5GJCtJYwD09gh-1" parent="ND7bHLR5GJCtJYwD09gh-0" />
-        <mxCell id="AJSnGZKcs8ImaNjPrj9h-0" value="Edge A" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;sketch=1;curveFitting=1;jiggle=2;" parent="ND7bHLR5GJCtJYwD09gh-1" vertex="1">
+        <mxCell id="AJSnGZKcs8ImaNjPrj9h-0" value="Edge A" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;sketch=1;curveFitting=1;jiggle=2;fillColor=none;" parent="ND7bHLR5GJCtJYwD09gh-1" vertex="1">
           <mxGeometry x="-810" y="120" width="740" height="560" as="geometry" />
         </mxCell>
         <mxCell id="AJSnGZKcs8ImaNjPrj9h-1" value="Container A" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="ND7bHLR5GJCtJYwD09gh-1" vertex="1">
@@ -425,7 +425,7 @@
         <mxCell id="AJSnGZKcs8ImaNjPrj9h-41" value="qg-bbb" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="ND7bHLR5GJCtJYwD09gh-1" vertex="1">
           <mxGeometry x="-330" y="317.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ld0Zxasf4pZnUYAPm5LO-0" value="Edge B" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;sketch=1;curveFitting=1;jiggle=2;" parent="ND7bHLR5GJCtJYwD09gh-1" vertex="1">
+        <mxCell id="ld0Zxasf4pZnUYAPm5LO-0" value="Edge B" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;sketch=1;curveFitting=1;jiggle=2;fillColor=none;" parent="ND7bHLR5GJCtJYwD09gh-1" vertex="1">
           <mxGeometry x="-10" y="120" width="740" height="560" as="geometry" />
         </mxCell>
         <mxCell id="ld0Zxasf4pZnUYAPm5LO-1" value="Container C" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="ND7bHLR5GJCtJYwD09gh-1" vertex="1">
