@@ -7,13 +7,13 @@
         <mxCell id="E7XuRBrP9I16yyDcMiF2-3" value="Edge A" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="20" y="80" width="740" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="KOOwxzatVmSpQnOnulVU-6" value="Container A" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=0;" parent="1" vertex="1">
+        <mxCell id="KOOwxzatVmSpQnOnulVU-6" value="Container A" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=0;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="80" y="100" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KOOwxzatVmSpQnOnulVU-11" value="eth0" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="100" y="125" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KOOwxzatVmSpQnOnulVU-14" value="Linux Bridge qbr-xxx" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="KOOwxzatVmSpQnOnulVU-14" value="Linux Bridge qbr-xxx" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="50" y="200" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="KOOwxzatVmSpQnOnulVU-12" value="tap-xxx" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -22,10 +22,10 @@
         <mxCell id="KOOwxzatVmSpQnOnulVU-15" value="qvb-xxx" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="90" y="277.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KOOwxzatVmSpQnOnulVU-17" value="br-int" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="KOOwxzatVmSpQnOnulVU-17" value="br-int" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="35" y="350" width="710" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="KOOwxzatVmSpQnOnulVU-19" value="DHCP namespace" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="KOOwxzatVmSpQnOnulVU-19" value="DHCP namespace" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="600" y="200" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="E7XuRBrP9I16yyDcMiF2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="KOOwxzatVmSpQnOnulVU-21" target="KOOwxzatVmSpQnOnulVU-25" edge="1">
@@ -43,7 +43,7 @@
         <mxCell id="KOOwxzatVmSpQnOnulVU-26" value="dnsmasq" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="640" y="225" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KOOwxzatVmSpQnOnulVU-27" value="Router namespace" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="KOOwxzatVmSpQnOnulVU-27" value="Router namespace" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="390" y="200" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="e4THsjY1m9CHqS4a6q61-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="KOOwxzatVmSpQnOnulVU-28" target="KOOwxzatVmSpQnOnulVU-23" edge="1">
@@ -55,10 +55,10 @@
         <mxCell id="KOOwxzatVmSpQnOnulVU-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="KOOwxzatVmSpQnOnulVU-30" target="KOOwxzatVmSpQnOnulVU-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KOOwxzatVmSpQnOnulVU-31" value="br-tun&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="KOOwxzatVmSpQnOnulVU-31" value="br-tun&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="390" y="510" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KOOwxzatVmSpQnOnulVU-32" value="br-ex&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="KOOwxzatVmSpQnOnulVU-32" value="br-ex&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="150" y="510" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KOOwxzatVmSpQnOnulVU-33" value="eth0" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
@@ -90,13 +90,13 @@
         <mxCell id="KOOwxzatVmSpQnOnulVU-89" value="vxlan-0" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="500" y="535" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="e4THsjY1m9CHqS4a6q61-11" value="Container B" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=0;" parent="1" vertex="1">
+        <mxCell id="e4THsjY1m9CHqS4a6q61-11" value="Container B" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;rounded=0;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="250" y="100" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="e4THsjY1m9CHqS4a6q61-12" value="eth0" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="270" y="125" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="e4THsjY1m9CHqS4a6q61-13" value="Linux Bridge qbr-yyy" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="e4THsjY1m9CHqS4a6q61-13" value="Linux Bridge qbr-yyy" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="220" y="200" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="e4THsjY1m9CHqS4a6q61-14" value="tap-yyy" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
