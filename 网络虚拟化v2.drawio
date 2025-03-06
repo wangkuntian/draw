@@ -251,7 +251,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="多节点同一子网" id="MN9ljoQ8KIfKA037NhYA">
-    <mxGraphModel dx="1195" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ND7bHLR5GJCtJYwD09gh-0" />
         <mxCell id="ND7bHLR5GJCtJYwD09gh-1" parent="ND7bHLR5GJCtJYwD09gh-0" />
