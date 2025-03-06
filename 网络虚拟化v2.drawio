@@ -251,7 +251,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="多节点同一子网" id="MN9ljoQ8KIfKA037NhYA">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ND7bHLR5GJCtJYwD09gh-0" />
         <mxCell id="ND7bHLR5GJCtJYwD09gh-1" parent="ND7bHLR5GJCtJYwD09gh-0" />
@@ -326,14 +326,6 @@
         </mxCell>
         <mxCell id="cPGylRJRtxA_nNHubrcO-22" value="eth0" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ND7bHLR5GJCtJYwD09gh-1">
           <mxGeometry x="160" y="610" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qMhDFihGYFhbwvESNrvS-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="ND7bHLR5GJCtJYwD09gh-1" source="cPGylRJRtxA_nNHubrcO-23" target="cPGylRJRtxA_nNHubrcO-57">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="530" y="680" />
-              <mxPoint x="1310" y="680" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="cPGylRJRtxA_nNHubrcO-23" value="vxlan-0" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ND7bHLR5GJCtJYwD09gh-1">
           <mxGeometry x="500" y="535" width="60" height="30" as="geometry" />
@@ -476,9 +468,6 @@
         </mxCell>
         <mxCell id="cPGylRJRtxA_nNHubrcO-67" value="qg-bbb" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ND7bHLR5GJCtJYwD09gh-1">
           <mxGeometry x="1280" y="277.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iUJg6Cp6fKO49vTgRBSr-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="ND7bHLR5GJCtJYwD09gh-1" source="cPGylRJRtxA_nNHubrcO-57" target="cPGylRJRtxA_nNHubrcO-57">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
