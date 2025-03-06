@@ -61,7 +61,7 @@
         <mxCell id="KOOwxzatVmSpQnOnulVU-39" value="phy-br-int" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="260" y="535" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KOOwxzatVmSpQnOnulVU-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+        <mxCell id="KOOwxzatVmSpQnOnulVU-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KOOwxzatVmSpQnOnulVU-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="385" as="targetPoint" />
             <mxPoint x="120" y="320" as="sourcePoint" />
@@ -85,7 +85,7 @@
         <mxCell id="e4THsjY1m9CHqS4a6q61-12" value="eth0" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="270" y="265" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="e4THsjY1m9CHqS4a6q61-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="e4THsjY1m9CHqS4a6q61-11" target="e4THsjY1m9CHqS4a6q61-18" edge="1">
+        <mxCell id="e4THsjY1m9CHqS4a6q61-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="e4THsjY1m9CHqS4a6q61-12" target="e4THsjY1m9CHqS4a6q61-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="330" as="sourcePoint" />
           </mxGeometry>
