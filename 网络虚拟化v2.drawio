@@ -327,7 +327,7 @@
         <mxCell id="cPGylRJRtxA_nNHubrcO-22" value="eth0" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ND7bHLR5GJCtJYwD09gh-1">
           <mxGeometry x="160" y="610" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wdLwhJiERzUwCrToTaaF-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="ND7bHLR5GJCtJYwD09gh-1" source="cPGylRJRtxA_nNHubrcO-23" target="cPGylRJRtxA_nNHubrcO-57">
+        <mxCell id="wdLwhJiERzUwCrToTaaF-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;endArrow=none;startFill=0;" edge="1" parent="ND7bHLR5GJCtJYwD09gh-1" source="cPGylRJRtxA_nNHubrcO-23" target="cPGylRJRtxA_nNHubrcO-57">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="530" y="680" />
