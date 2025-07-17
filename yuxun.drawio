@@ -197,7 +197,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="应用安装流程图" id="ytVdSLYLGQABuCcvOuDY">
-    <mxGraphModel dx="494" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1454" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="v9pKxvC1FubNR82RC-i7-0" />
         <mxCell id="v9pKxvC1FubNR82RC-i7-1" parent="v9pKxvC1FubNR82RC-i7-0" />
@@ -371,7 +371,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="错误处理流程图" id="fUXtXdlOW6SkO9AmsnvL">
-    <mxGraphModel dx="1454" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="494" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="EAcIPkukBXN6A2oAz144-0" />
         <mxCell id="EAcIPkukBXN6A2oAz144-1" parent="EAcIPkukBXN6A2oAz144-0" />
@@ -406,18 +406,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_QbU0zMpMJnW8JPDmMPz-1" value="设置响应状态为成功" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="EAcIPkukBXN6A2oAz144-1">
-          <mxGeometry y="440" width="160" height="40" as="geometry" />
+          <mxGeometry x="40" y="440" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_QbU0zMpMJnW8JPDmMPz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EAcIPkukBXN6A2oAz144-1" source="_QbU0zMpMJnW8JPDmMPz-3" target="_QbU0zMpMJnW8JPDmMPz-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="80" y="820" />
+              <mxPoint x="120" y="820" />
               <mxPoint x="280" y="820" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_QbU0zMpMJnW8JPDmMPz-3" value="记录成功日志" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="EAcIPkukBXN6A2oAz144-1">
-          <mxGeometry y="520" width="160" height="40" as="geometry" />
+          <mxGeometry x="40" y="520" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_QbU0zMpMJnW8JPDmMPz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EAcIPkukBXN6A2oAz144-1" source="_QbU0zMpMJnW8JPDmMPz-5" target="_QbU0zMpMJnW8JPDmMPz-6">
           <mxGeometry relative="1" as="geometry">
@@ -485,6 +485,12 @@
         </mxCell>
         <mxCell id="_QbU0zMpMJnW8JPDmMPz-13" value="发送响应消息" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="EAcIPkukBXN6A2oAz144-1">
           <mxGeometry x="200" y="920" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mltBYUjfQcEJcc4R9gL0-0" value="是" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Maple Mono NF;" vertex="1" parent="EAcIPkukBXN6A2oAz144-1">
+          <mxGeometry x="160" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mltBYUjfQcEJcc4R9gL0-1" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Maple Mono NF;" vertex="1" parent="EAcIPkukBXN6A2oAz144-1">
+          <mxGeometry x="340" y="330" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
