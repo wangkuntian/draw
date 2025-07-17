@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="26.2.12" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="26.2.12" pages="3">
   <diagram name="应用管理架构" id="xp7nAYu0gN9C_gB3B9_X">
     <mxGraphModel dx="706" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,6 +192,76 @@
         </mxCell>
         <mxCell id="Y9igeErPg-ZZf1_OGYMn-5" value="LVM驱动" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
           <mxGeometry x="750" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="应用安装流程图" id="ytVdSLYLGQABuCcvOuDY">
+    <mxGraphModel dx="852" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="v9pKxvC1FubNR82RC-i7-0" />
+        <mxCell id="v9pKxvC1FubNR82RC-i7-1" parent="v9pKxvC1FubNR82RC-i7-0" />
+        <mxCell id="v9pKxvC1FubNR82RC-i7-3" value="接收WebSocket消息" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="v9pKxvC1FubNR82RC-i7-1">
+          <mxGeometry x="80" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="v9pKxvC1FubNR82RC-i7-1" source="O1ZlsdVBt1JrNouo5L_t-1" target="O1ZlsdVBt1JrNouo5L_t-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-1" value="&lt;span style=&quot;font-family: &amp;quot;Maple Mono NF&amp;quot;;&quot;&gt;数据模型验证&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="v9pKxvC1FubNR82RC-i7-1">
+          <mxGeometry x="120" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v9pKxvC1FubNR82RC-i7-1" source="O1ZlsdVBt1JrNouo5L_t-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.9999999999999" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-2" value="提取安装任务列表" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="v9pKxvC1FubNR82RC-i7-1">
+          <mxGeometry x="80" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v9pKxvC1FubNR82RC-i7-1" source="O1ZlsdVBt1JrNouo5L_t-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.9999999999999" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-5" value="&lt;font face=&quot;Maple Mono NF&quot;&gt;Linux平台？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="v9pKxvC1FubNR82RC-i7-1">
+          <mxGeometry x="120" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v9pKxvC1FubNR82RC-i7-1" source="O1ZlsdVBt1JrNouo5L_t-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.9999999999999" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-7" value="验证Windows卷挂载状态" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="v9pKxvC1FubNR82RC-i7-1">
+          <mxGeometry x="80" y="480" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v9pKxvC1FubNR82RC-i7-1" source="O1ZlsdVBt1JrNouo5L_t-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.9999999999999" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-9" value="下载文件" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="v9pKxvC1FubNR82RC-i7-1">
+          <mxGeometry x="80" y="560" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-11" value="验证文件MD5值" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="v9pKxvC1FubNR82RC-i7-1">
+          <mxGeometry x="80" y="640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-12" value="&lt;font face=&quot;Maple Mono NF&quot;&gt;成功？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="v9pKxvC1FubNR82RC-i7-1">
+          <mxGeometry x="120" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-13" value="确认安装路径" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="v9pKxvC1FubNR82RC-i7-1">
+          <mxGeometry x="80" y="870" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-14" value="&lt;font face=&quot;Maple Mono NF&quot;&gt;增量更新？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="v9pKxvC1FubNR82RC-i7-1">
+          <mxGeometry x="120" y="920" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-15" value="删除旧文件" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="v9pKxvC1FubNR82RC-i7-1">
+          <mxGeometry x="80" y="1040" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-16" value="直接安装" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="v9pKxvC1FubNR82RC-i7-1">
+          <mxGeometry x="280" y="1040" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O1ZlsdVBt1JrNouo5L_t-17" value="解压安装包" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="v9pKxvC1FubNR82RC-i7-1">
+          <mxGeometry x="80" y="800" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
