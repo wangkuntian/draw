@@ -173,7 +173,19 @@
           <mxGeometry x="720" y="490" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="a0R2GxuvqBf43XW_1lpw-8" value="WebSocket客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
-          <mxGeometry x="90" y="50" width="60" height="30" as="geometry" />
+          <mxGeometry x="60" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9igeErPg-ZZf1_OGYMn-0" value="核心管理器" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
+          <mxGeometry x="220" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9igeErPg-ZZf1_OGYMn-1" value="驱动" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
+          <mxGeometry x="220" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9igeErPg-ZZf1_OGYMn-2" value="Linux驱动" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
+          <mxGeometry x="60" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9igeErPg-ZZf1_OGYMn-3" value="Windows驱动" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
+          <mxGeometry x="60" y="370" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
