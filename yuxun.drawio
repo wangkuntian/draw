@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ik2oOxoo1ciZK21gkaZY-1" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="1">
-          <mxGeometry x="30" y="50" width="520" height="500" as="geometry" />
-        </mxCell>
         <mxCell id="y2FFKVEh2QQAg2XDI28p-1" value="操作处理层（Operations Layer）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="1">
           <mxGeometry x="80" y="80" width="420" height="40" as="geometry" />
         </mxCell>
