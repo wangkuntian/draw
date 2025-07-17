@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="Page-1" id="xp7nAYu0gN9C_gB3B9_X">
-    <mxGraphModel>
+    <mxGraphModel dx="706" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-1" value="操作处理层（Operations Layer）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-2" value="app_install" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-3" value="app_uninstall" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="120" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-4" value="app_query" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-5" value="管理层（Manager Layer）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-6" value="AppManager" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-7" value="base_handle" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-8" value="ErrorHandler" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-9" value="驱动层（Driver Layer）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-10" value="WindowsAppDriver" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-11" value="LinuxAppDriver" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-12" value="AppDriver(Abstract)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-13" value="工具层（Utils Layer）" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-14" value="FileUtils" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-15" value="DownloadUtils" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2FFKVEh2QQAg2XDI28p-16" value="VolumeManger(Linux)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="140" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
