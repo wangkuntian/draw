@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="26.2.12">
-  <diagram name="Page-1" id="xp7nAYu0gN9C_gB3B9_X">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="26.2.12" pages="2">
+  <diagram name="应用管理架构" id="xp7nAYu0gN9C_gB3B9_X">
     <mxGraphModel dx="706" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -78,6 +78,38 @@
         </mxCell>
         <mxCell id="y2FFKVEh2QQAg2XDI28p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.833;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="y2FFKVEh2QQAg2XDI28p-12" target="y2FFKVEh2QQAg2XDI28p-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of 应用管理架构" id="3dsDOWbQ8F4OqnkygKAp">
+    <mxGraphModel dx="589" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Dw6n-JA-SmB9W-c3Jcq3-0" />
+        <mxCell id="Dw6n-JA-SmB9W-c3Jcq3-1" parent="Dw6n-JA-SmB9W-c3Jcq3-0" />
+        <mxCell id="Dw6n-JA-SmB9W-c3Jcq3-2" value="WebSocket Client" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
+          <mxGeometry x="80" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yqtZxMUpMlfcbRjiKDG6-0" value="Agent&lt;br&gt;Manager" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
+          <mxGeometry x="240" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yqtZxMUpMlfcbRjiKDG6-1" value="App&lt;br&gt;Manager" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
+          <mxGeometry x="240" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yqtZxMUpMlfcbRjiKDG6-2" value="VolumeManger" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
+          <mxGeometry x="360" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yqtZxMUpMlfcbRjiKDG6-3" value="VolumeDriver" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
+          <mxGeometry x="520" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hrm3_6YKBRxS-cNyLI_7-0" value="App&lt;br&gt;Driver" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
+          <mxGeometry x="240" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hrm3_6YKBRxS-cNyLI_7-1" value="Linux&lt;br&gt;AppDriver" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
+          <mxGeometry x="160" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hrm3_6YKBRxS-cNyLI_7-2" value="Windows&lt;br&gt;AppDriver" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Maple Mono NF;" vertex="1" parent="Dw6n-JA-SmB9W-c3Jcq3-1">
+          <mxGeometry x="320" y="440" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
