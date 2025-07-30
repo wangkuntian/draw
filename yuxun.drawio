@@ -816,50 +816,38 @@
       <root>
         <mxCell id="G6-k3tBmBGXIqKZJ36Ws-0" />
         <mxCell id="G6-k3tBmBGXIqKZJ36Ws-1" parent="G6-k3tBmBGXIqKZJ36Ws-0" />
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="G6-k3tBmBGXIqKZJ36Ws-1" source="G6-k3tBmBGXIqKZJ36Ws-3" target="G6-k3tBmBGXIqKZJ36Ws-9">
+        <mxCell id="fgWFvdolv7hTApOo0VG0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="G6-k3tBmBGXIqKZJ36Ws-1" source="G6-k3tBmBGXIqKZJ36Ws-10" target="fgWFvdolv7hTApOo0VG0-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-3" value="LVM逻辑卷组层" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;verticalAlign=top;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
-          <mxGeometry x="160" y="560" width="400" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="G6-k3tBmBGXIqKZJ36Ws-1" source="G6-k3tBmBGXIqKZJ36Ws-5" target="G6-k3tBmBGXIqKZJ36Ws-3">
+        <mxCell id="fgWFvdolv7hTApOo0VG0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="G6-k3tBmBGXIqKZJ36Ws-1" source="G6-k3tBmBGXIqKZJ36Ws-10" target="G6-k3tBmBGXIqKZJ36Ws-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-5" value="物理存储层" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;verticalAlign=top;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
-          <mxGeometry x="160" y="400" width="400" height="120" as="geometry" />
+        <mxCell id="fgWFvdolv7hTApOo0VG0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="G6-k3tBmBGXIqKZJ36Ws-1" source="G6-k3tBmBGXIqKZJ36Ws-10" target="RFXD8ccBoL7-fZvZ7def-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-6" value="物理磁盘1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
-          <mxGeometry x="180" y="440" width="100" height="40" as="geometry" />
+        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-10" value="基础卷&lt;div&gt;Base&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
+          <mxGeometry x="160" y="840" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-7" value="物理磁盘2" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
-          <mxGeometry x="310" y="440" width="100" height="40" as="geometry" />
+        <mxCell id="fgWFvdolv7hTApOo0VG0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="G6-k3tBmBGXIqKZJ36Ws-1" source="G6-k3tBmBGXIqKZJ36Ws-11" target="fgWFvdolv7hTApOo0VG0-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-8" value="物理磁盘N" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
-          <mxGeometry x="440" y="440" width="100" height="40" as="geometry" />
+        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-11" value="快照卷1&lt;div&gt;Snapshot1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
+          <mxGeometry x="320" y="760" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-9" value="文件系统层" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;verticalAlign=top;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
-          <mxGeometry x="160" y="800" width="400" height="120" as="geometry" />
+        <mxCell id="fgWFvdolv7hTApOo0VG0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="G6-k3tBmBGXIqKZJ36Ws-1" source="RFXD8ccBoL7-fZvZ7def-1" target="fgWFvdolv7hTApOo0VG0-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-10" value="NTFS&lt;br&gt;（云游戏）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
-          <mxGeometry x="180" y="840" width="100" height="40" as="geometry" />
+        <mxCell id="RFXD8ccBoL7-fZvZ7def-1" value="快照卷2&lt;div&gt;Snapshot2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
+          <mxGeometry x="320" y="920" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-11" value="EXT4&lt;br&gt;（云桌面、容器）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
-          <mxGeometry x="310" y="840" width="100" height="40" as="geometry" />
+        <mxCell id="fgWFvdolv7hTApOo0VG0-0" value="共享数据" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
+          <mxGeometry x="180" y="920" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-12" value="其他FS&lt;br&gt;(扩展)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
-          <mxGeometry x="440" y="840" width="100" height="40" as="geometry" />
+        <mxCell id="fgWFvdolv7hTApOo0VG0-1" value="用户数据1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
+          <mxGeometry x="480" y="760" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-13" value="Volume Group（VG）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;verticalAlign=top;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
-          <mxGeometry x="200" y="600" width="320" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-14" value="LV1&lt;br&gt;（数据卷1）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
-          <mxGeometry x="230" y="640" width="72" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-15" value="LV2&lt;br&gt;（数据卷2）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
-          <mxGeometry x="324" y="640" width="72" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="G6-k3tBmBGXIqKZJ36Ws-16" value="LVN&lt;br&gt;（数据卷N）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
-          <mxGeometry x="413.5" y="641" width="72" height="40" as="geometry" />
+        <mxCell id="fgWFvdolv7hTApOo0VG0-3" value="用户数据2" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
+          <mxGeometry x="480" y="920" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
