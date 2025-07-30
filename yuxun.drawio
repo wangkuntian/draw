@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="26.2.12" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.5" pages="5">
   <diagram name="应用管理架构" id="xp7nAYu0gN9C_gB3B9_X">
     <mxGraphModel dx="706" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -491,6 +491,62 @@
         </mxCell>
         <mxCell id="mltBYUjfQcEJcc4R9gL0-1" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Maple Mono NF;" vertex="1" parent="EAcIPkukBXN6A2oAz144-1">
           <mxGeometry x="340" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="计算虚拟化" id="BYJFhlbOozTKXEwXaQgx">
+    <mxGraphModel dx="815" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="eEmzFS_Nbn339-5fho2O-0" />
+        <mxCell id="eEmzFS_Nbn339-5fho2O-1" parent="eEmzFS_Nbn339-5fho2O-0" />
+        <mxCell id="eEmzFS_Nbn339-5fho2O-2" value="上层应用/控制台" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="80" y="80" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-0" value="Agent管理器" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;verticalAlign=top;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="80" y="200" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-1" value="Websocket&lt;br&gt;客户端" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="100" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-2" value="任务管理&lt;br&gt;服务" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="230" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-3" value="配置管理&lt;br&gt;服务" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="360" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-4" value="虚拟化操作层" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;verticalAlign=top;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="80" y="360" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-5" value="统一虚拟化接口" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="100" y="400" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-7" value="类型检查" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="190" y="400" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-8" value="异常处理" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="280" y="400" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-9" value="响应格式化" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="370" y="400" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-10" value="KVM实现层" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="130" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-11" value="Docker实现层" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="330" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-12" value="KVMManager" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="130" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-13" value="DockerManager" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="330" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-14" value="libvirt API&lt;div&gt;(QEMU/KVM)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="130" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4G_CL5gcbDR5nQK6me1-15" value="Docker API&lt;br&gt;(容器引擎)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
+          <mxGeometry x="330" y="680" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
