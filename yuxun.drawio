@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.5" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.5" pages="11">
   <diagram name="应用管理架构" id="xp7nAYu0gN9C_gB3B9_X">
     <mxGraphModel dx="706" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -848,6 +848,29 @@
         </mxCell>
         <mxCell id="fgWFvdolv7hTApOo0VG0-3" value="用户数据2" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="G6-k3tBmBGXIqKZJ36Ws-1">
           <mxGeometry x="480" y="920" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="独立卷模式" id="cfiHgKLt50pO-f5rfJeZ">
+    <mxGraphModel dx="983" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="4UZpaG6q3B8AwDI1h5_z-0" />
+        <mxCell id="4UZpaG6q3B8AwDI1h5_z-1" parent="4UZpaG6q3B8AwDI1h5_z-0" />
+        <mxCell id="F-3MNKoyd47iaEid-9gy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4UZpaG6q3B8AwDI1h5_z-1" source="4UZpaG6q3B8AwDI1h5_z-5" target="F-3MNKoyd47iaEid-9gy-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4UZpaG6q3B8AwDI1h5_z-5" value="独立创建" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="4UZpaG6q3B8AwDI1h5_z-1">
+          <mxGeometry x="160" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-3MNKoyd47iaEid-9gy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4UZpaG6q3B8AwDI1h5_z-1" source="F-3MNKoyd47iaEid-9gy-0" target="F-3MNKoyd47iaEid-9gy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-3MNKoyd47iaEid-9gy-0" value="格式化NTFS" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="4UZpaG6q3B8AwDI1h5_z-1">
+          <mxGeometry x="320" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F-3MNKoyd47iaEid-9gy-1" value="直接使用" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="4UZpaG6q3B8AwDI1h5_z-1">
+          <mxGeometry x="480" y="840" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
