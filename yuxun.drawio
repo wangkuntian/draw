@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.5" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.5" pages="9">
   <diagram name="应用管理架构" id="xp7nAYu0gN9C_gB3B9_X">
     <mxGraphModel dx="706" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -740,11 +740,6 @@
         <mxCell id="ZzZe2xQapKUXQ2y2AtOl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Maple Mono NF;" edge="1" parent="oR2P3DI1vr8Bm-XOLGVu-1" source="ZzZe2xQapKUXQ2y2AtOl-4" target="ZzZe2xQapKUXQ2y2AtOl-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZzZe2xQapKUXQ2y2AtOl-3" value="请求/响应消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Maple Mono NF;" vertex="1" connectable="0" parent="ZzZe2xQapKUXQ2y2AtOl-2">
-          <mxGeometry x="-0.2449" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ZzZe2xQapKUXQ2y2AtOl-4" value="镜像文件&lt;div&gt;（qcow2）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="oR2P3DI1vr8Bm-XOLGVu-1">
           <mxGeometry x="110" y="620" width="120" height="50" as="geometry" />
         </mxCell>
@@ -759,6 +754,116 @@
         </mxCell>
         <mxCell id="ZzZe2xQapKUXQ2y2AtOl-8" value="差量存储&lt;br&gt;（快速创建）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="oR2P3DI1vr8Bm-XOLGVu-1">
           <mxGeometry x="390" y="740" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="数据盘存储" id="g0_a_2AX8EcuFQ7O0Xf0">
+    <mxGraphModel dx="983" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Mr6vhqw6qcdJC1CkZXo8-0" />
+        <mxCell id="Mr6vhqw6qcdJC1CkZXo8-1" parent="Mr6vhqw6qcdJC1CkZXo8-0" />
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mr6vhqw6qcdJC1CkZXo8-1" source="iIzM4EpoFa2JpDLa8ibZ-1" target="iIzM4EpoFa2JpDLa8ibZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-1" value="Agent管理器" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;verticalAlign=top;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="180" y="790" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-2" value="Websocket&lt;br&gt;客户端" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="200" y="830" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-3" value="任务管理&lt;br&gt;服务" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="330" y="830" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-4" value="配置管理&lt;br&gt;服务" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="460" y="830" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mr6vhqw6qcdJC1CkZXo8-1" source="iIzM4EpoFa2JpDLa8ibZ-6" target="iIzM4EpoFa2JpDLa8ibZ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-6" value="存储操作层" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;verticalAlign=top;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="180" y="950" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-7" value="创建" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="200" y="990" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-8" value="删除" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="272" y="990" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-9" value="挂载" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="344" y="990" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-10" value="卸载" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="416" y="990" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mr6vhqw6qcdJC1CkZXo8-1" source="iIzM4EpoFa2JpDLa8ibZ-12" target="iIzM4EpoFa2JpDLa8ibZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-12" value="LVM驱动实现&lt;br&gt;Driver" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="195" y="1270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mr6vhqw6qcdJC1CkZXo8-1" source="iIzM4EpoFa2JpDLa8ibZ-14" target="iIzM4EpoFa2JpDLa8ibZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-14" value="文件系统管理&lt;div&gt;FileSystem&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="330" y="1270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-15" value="LVM命令&lt;br&gt;lvcreate等" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="195" y="1350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-16" value="mkfs、mount、umount等" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="330" y="1350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mr6vhqw6qcdJC1CkZXo8-1" source="iIzM4EpoFa2JpDLa8ibZ-18" target="iIzM4EpoFa2JpDLa8ibZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-18" value="上层应用平台" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;verticalAlign=top;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="180" y="630" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-19" value="云游戏管理" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="200" y="670" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-20" value="云桌面管理" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="330" y="670" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-21" value="容器管理" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="460" y="670" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-22" value="查询" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="488" y="990" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mr6vhqw6qcdJC1CkZXo8-1" source="iIzM4EpoFa2JpDLa8ibZ-26" target="iIzM4EpoFa2JpDLa8ibZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mr6vhqw6qcdJC1CkZXo8-1" source="iIzM4EpoFa2JpDLa8ibZ-26" target="iIzM4EpoFa2JpDLa8ibZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Mr6vhqw6qcdJC1CkZXo8-1" source="iIzM4EpoFa2JpDLa8ibZ-26" target="iIzM4EpoFa2JpDLa8ibZ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-26" value="存储管理层&lt;br&gt;VolumeManager" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;verticalAlign=top;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="180" y="1110" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-27" value="卷管理" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="200" y="1150" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-28" value="文件系统管理" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="290" y="1150" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-29" value="挂载状态管理" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="380" y="1150" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-30" value="预检查" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="470" y="1150" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Mr6vhqw6qcdJC1CkZXo8-1" source="iIzM4EpoFa2JpDLa8ibZ-32" target="iIzM4EpoFa2JpDLa8ibZ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-32" value="分区管理&lt;div&gt;Partition&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="465" y="1270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iIzM4EpoFa2JpDLa8ibZ-33" value="parted命令" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Mr6vhqw6qcdJC1CkZXo8-1">
+          <mxGeometry x="465" y="1350" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
