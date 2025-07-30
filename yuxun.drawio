@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.5" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.5" pages="6">
   <diagram name="应用管理架构" id="xp7nAYu0gN9C_gB3B9_X">
     <mxGraphModel dx="706" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -576,6 +576,45 @@
         </mxCell>
         <mxCell id="A4G_CL5gcbDR5nQK6me1-15" value="Docker API&lt;br&gt;(容器引擎)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="eEmzFS_Nbn339-5fho2O-1">
           <mxGeometry x="330" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="websocket" id="Yfw0cJeqM7jmHinnpfML">
+    <mxGraphModel dx="815" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="bjgPKWZo0xxxdhab9-0E-0" />
+        <mxCell id="bjgPKWZo0xxxdhab9-0E-1" parent="bjgPKWZo0xxxdhab9-0E-0" />
+        <mxCell id="rN_vADhPmcURvM8yBZJN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;fontFamily=Maple Mono NF;" edge="1" parent="bjgPKWZo0xxxdhab9-0E-1" source="bjgPKWZo0xxxdhab9-0E-7" target="rN_vADhPmcURvM8yBZJN-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rN_vADhPmcURvM8yBZJN-2" value="WebSocket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Maple Mono NF;" vertex="1" connectable="0" parent="rN_vADhPmcURvM8yBZJN-1">
+          <mxGeometry x="-0.0119" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rN_vADhPmcURvM8yBZJN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Maple Mono NF;" edge="1" parent="bjgPKWZo0xxxdhab9-0E-1" source="bjgPKWZo0xxxdhab9-0E-7" target="rN_vADhPmcURvM8yBZJN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rN_vADhPmcURvM8yBZJN-7" value="请求/响应消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Maple Mono NF;" vertex="1" connectable="0" parent="rN_vADhPmcURvM8yBZJN-5">
+          <mxGeometry x="-0.2449" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bjgPKWZo0xxxdhab9-0E-7" value="控制端&lt;br&gt;（Hoststack）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="bjgPKWZo0xxxdhab9-0E-1">
+          <mxGeometry x="80" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rN_vADhPmcURvM8yBZJN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Maple Mono NF;" edge="1" parent="bjgPKWZo0xxxdhab9-0E-1" source="rN_vADhPmcURvM8yBZJN-0" target="rN_vADhPmcURvM8yBZJN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rN_vADhPmcURvM8yBZJN-0" value="Agent服务端" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="bjgPKWZo0xxxdhab9-0E-1">
+          <mxGeometry x="360" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rN_vADhPmcURvM8yBZJN-3" value="请求验证" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="bjgPKWZo0xxxdhab9-0E-1">
+          <mxGeometry x="80" y="520" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rN_vADhPmcURvM8yBZJN-4" value="消息处理" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="bjgPKWZo0xxxdhab9-0E-1">
+          <mxGeometry x="360" y="520" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
