@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.5" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.5" pages="7">
   <diagram name="应用管理架构" id="xp7nAYu0gN9C_gB3B9_X">
     <mxGraphModel dx="706" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -615,6 +615,93 @@
         </mxCell>
         <mxCell id="rN_vADhPmcURvM8yBZJN-4" value="消息处理" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="bjgPKWZo0xxxdhab9-0E-1">
           <mxGeometry x="360" y="520" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="存储虚拟化" id="Wz_XS84kylq6U5y2RKxP">
+    <mxGraphModel dx="815" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Q0gNlbwikqVmXkg4uTxg-0" />
+        <mxCell id="Q0gNlbwikqVmXkg4uTxg-1" parent="Q0gNlbwikqVmXkg4uTxg-0" />
+        <mxCell id="181pwhwdozrudYA2qNyV-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Q0gNlbwikqVmXkg4uTxg-1" target="181pwhwdozrudYA2qNyV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-1" value="WebSocket通信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Maple Mono NF;fontSize=12;" vertex="1" connectable="0" parent="181pwhwdozrudYA2qNyV-0">
+          <mxGeometry x="-0.3571" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Q0gNlbwikqVmXkg4uTxg-1" source="181pwhwdozrudYA2qNyV-4" target="181pwhwdozrudYA2qNyV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-4" value="Agent管理器" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;verticalAlign=top;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="120" y="340" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-5" value="Websocket&lt;br&gt;客户端" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="140" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-6" value="任务管理&lt;br&gt;服务" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="270" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-7" value="配置管理&lt;br&gt;服务" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="400" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Q0gNlbwikqVmXkg4uTxg-1" source="181pwhwdozrudYA2qNyV-10" target="181pwhwdozrudYA2qNyV-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Q0gNlbwikqVmXkg4uTxg-1" source="181pwhwdozrudYA2qNyV-10" target="181pwhwdozrudYA2qNyV-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-10" value="虚拟化操作层" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;verticalAlign=top;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="120" y="500" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-11" value="统一虚拟化接口" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="140" y="540" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-12" value="类型检查" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="230" y="540" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-13" value="异常处理" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="320" y="540" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-14" value="响应格式化" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="410" y="540" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Q0gNlbwikqVmXkg4uTxg-1" source="181pwhwdozrudYA2qNyV-16" target="181pwhwdozrudYA2qNyV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-16" value="KVM实现层" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="170" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Q0gNlbwikqVmXkg4uTxg-1" source="181pwhwdozrudYA2qNyV-18" target="181pwhwdozrudYA2qNyV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-18" value="Docker实现层" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="370" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Q0gNlbwikqVmXkg4uTxg-1" source="181pwhwdozrudYA2qNyV-20" target="181pwhwdozrudYA2qNyV-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-20" value="KVMManager" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="170" y="740" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Q0gNlbwikqVmXkg4uTxg-1" source="181pwhwdozrudYA2qNyV-22" target="181pwhwdozrudYA2qNyV-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-22" value="DockerManager" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="370" y="740" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-23" value="libvirt API&lt;div&gt;(QEMU/KVM)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="170" y="820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-24" value="Docker API&lt;br&gt;(容器引擎)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;fontSize=12;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="370" y="820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="181pwhwdozrudYA2qNyV-25" value="上层应用平台" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Maple Mono NF;verticalAlign=top;" vertex="1" parent="Q0gNlbwikqVmXkg4uTxg-1">
+          <mxGeometry x="120" y="160" width="400" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
