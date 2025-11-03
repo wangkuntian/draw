@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8" pages="5">
   <diagram name="传统模式（多网卡）" id="uBS4nP-__1NKj7vAu8B9">
     <mxGraphModel dx="1426" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -230,6 +230,103 @@
         </mxCell>
         <mxCell id="VNSc3Ovu_4cjdaYthZVj-18" value="公网" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
           <mxGeometry x="310" y="670" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="传统模式（南北流量）" id="D6FwGeNcTB7PKAb1E2e8">
+    <mxGraphModel dx="1783" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-0" />
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-1" parent="Rfu_NKx1JHxin0rvH2KT-0" />
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-2" value="机房" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="50" y="100" width="620" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-3" value="物理机" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="120" y="160" width="480" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Rfu_NKx1JHxin0rvH2KT-1" source="Rfu_NKx1JHxin0rvH2KT-5" target="Rfu_NKx1JHxin0rvH2KT-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-5" value="虚拟机-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="170" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Rfu_NKx1JHxin0rvH2KT-1" source="Rfu_NKx1JHxin0rvH2KT-7" target="Rfu_NKx1JHxin0rvH2KT-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-7" value="虚拟机-2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="320" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Rfu_NKx1JHxin0rvH2KT-1" source="Rfu_NKx1JHxin0rvH2KT-9" target="Rfu_NKx1JHxin0rvH2KT-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-9" value="虚拟机-n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="470" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Rfu_NKx1JHxin0rvH2KT-1" source="Rfu_NKx1JHxin0rvH2KT-11" target="Rfu_NKx1JHxin0rvH2KT-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-11" value="网卡-1&lt;br&gt;（业务网络）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="240" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Rfu_NKx1JHxin0rvH2KT-1" source="Rfu_NKx1JHxin0rvH2KT-13" target="Rfu_NKx1JHxin0rvH2KT-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-13" value="网卡-2&lt;br&gt;（外部网络）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="400" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Rfu_NKx1JHxin0rvH2KT-1" source="Rfu_NKx1JHxin0rvH2KT-15" target="Rfu_NKx1JHxin0rvH2KT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-15" value="OVS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="170" y="320" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Rfu_NKx1JHxin0rvH2KT-1" source="Rfu_NKx1JHxin0rvH2KT-17" target="Rfu_NKx1JHxin0rvH2KT-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-17" value="公网IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="320" y="590" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Rfu_NKx1JHxin0rvH2KT-18" value="公网" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="670" y="800" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NMD-gRzc4Ei0ypwgLpuK-0" value="代理节点" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="760" y="100" width="620" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="NMD-gRzc4Ei0ypwgLpuK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Rfu_NKx1JHxin0rvH2KT-1" source="NMD-gRzc4Ei0ypwgLpuK-1" target="NMD-gRzc4Ei0ypwgLpuK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMD-gRzc4Ei0ypwgLpuK-1" value="frp/rathole反向代理服务端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="881" y="320" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NMD-gRzc4Ei0ypwgLpuK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Rfu_NKx1JHxin0rvH2KT-1" source="NMD-gRzc4Ei0ypwgLpuK-3" target="Rfu_NKx1JHxin0rvH2KT-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1071" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMD-gRzc4Ei0ypwgLpuK-3" value="公网IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="1031" y="590" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NMD-gRzc4Ei0ypwgLpuK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Rfu_NKx1JHxin0rvH2KT-1" source="NMD-gRzc4Ei0ypwgLpuK-6" target="Rfu_NKx1JHxin0rvH2KT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMD-gRzc4Ei0ypwgLpuK-6" value="反向代理客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="240" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NMD-gRzc4Ei0ypwgLpuK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Rfu_NKx1JHxin0rvH2KT-1" source="NMD-gRzc4Ei0ypwgLpuK-8" target="NMD-gRzc4Ei0ypwgLpuK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMD-gRzc4Ei0ypwgLpuK-8" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="1500" y="800" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NMD-gRzc4Ei0ypwgLpuK-10" value="访问虚拟机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rfu_NKx1JHxin0rvH2KT-1">
+          <mxGeometry x="1241" y="790" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
