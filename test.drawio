@@ -225,7 +225,7 @@
         <mxCell id="VNSc3Ovu_4cjdaYthZVj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VNSc3Ovu_4cjdaYthZVj-1" source="VNSc3Ovu_4cjdaYthZVj-17" target="VNSc3Ovu_4cjdaYthZVj-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VNSc3Ovu_4cjdaYthZVj-17" value="路由器公网IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-17" value="运营商公网IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
           <mxGeometry x="320" y="590" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VNSc3Ovu_4cjdaYthZVj-18" value="公网" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
