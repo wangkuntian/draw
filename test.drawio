@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6-7q_bnZ_JDDzp1YS2AB-13" value="机房" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="620" height="570" as="geometry" />
+        </mxCell>
         <mxCell id="6-7q_bnZ_JDDzp1YS2AB-1" value="物理机" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="120" y="160" width="480" height="360" as="geometry" />
         </mxCell>
@@ -25,8 +28,14 @@
         <mxCell id="6-7q_bnZ_JDDzp1YS2AB-4" value="虚拟机-n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="200" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="6-7q_bnZ_JDDzp1YS2AB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-7q_bnZ_JDDzp1YS2AB-5" target="6-7q_bnZ_JDDzp1YS2AB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6-7q_bnZ_JDDzp1YS2AB-5" value="网卡-1&lt;br&gt;（业务网络）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-7q_bnZ_JDDzp1YS2AB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6-7q_bnZ_JDDzp1YS2AB-6" target="6-7q_bnZ_JDDzp1YS2AB-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6-7q_bnZ_JDDzp1YS2AB-6" value="网卡-2&lt;br&gt;（外部网络）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="480" width="80" height="40" as="geometry" />
@@ -36,6 +45,9 @@
         </mxCell>
         <mxCell id="6-7q_bnZ_JDDzp1YS2AB-8" value="OVS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="320" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-7q_bnZ_JDDzp1YS2AB-14" value="公网IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="630" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
