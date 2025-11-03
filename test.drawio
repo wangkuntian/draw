@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8" pages="4">
   <diagram name="传统模式（多网卡）" id="uBS4nP-__1NKj7vAu8B9">
     <mxGraphModel dx="1426" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,7 +116,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Edge" id="NxTW2xu-TF_BZOyImgqA">
+  <diagram name="Edge(多网卡)" id="NxTW2xu-TF_BZOyImgqA">
     <mxGraphModel dx="1426" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="D01dgIykwBVIeugsHIw9-0" />
@@ -170,6 +170,65 @@
           <mxGeometry x="320" y="590" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="D01dgIykwBVIeugsHIw9-18" value="公网" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="D01dgIykwBVIeugsHIw9-1">
+          <mxGeometry x="310" y="670" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Edge(单网卡)" id="sy5Yu_NHARtA9ReniIWA">
+    <mxGraphModel dx="1426" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-0" />
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-1" parent="VNSc3Ovu_4cjdaYthZVj-0" />
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-2" value="家庭网络" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
+          <mxGeometry x="50" y="100" width="620" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-3" value="物理机" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
+          <mxGeometry x="120" y="160" width="480" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VNSc3Ovu_4cjdaYthZVj-1" source="VNSc3Ovu_4cjdaYthZVj-5" target="VNSc3Ovu_4cjdaYthZVj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-5" value="虚拟机-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
+          <mxGeometry x="170" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VNSc3Ovu_4cjdaYthZVj-1" source="VNSc3Ovu_4cjdaYthZVj-7" target="VNSc3Ovu_4cjdaYthZVj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-7" value="虚拟机-2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
+          <mxGeometry x="320" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VNSc3Ovu_4cjdaYthZVj-1" source="VNSc3Ovu_4cjdaYthZVj-9" target="VNSc3Ovu_4cjdaYthZVj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-9" value="虚拟机-n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
+          <mxGeometry x="470" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VNSc3Ovu_4cjdaYthZVj-1" source="VNSc3Ovu_4cjdaYthZVj-11" target="VNSc3Ovu_4cjdaYthZVj-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-11" value="网卡-1&lt;br&gt;（业务网络）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
+          <mxGeometry x="240" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VNSc3Ovu_4cjdaYthZVj-1" source="VNSc3Ovu_4cjdaYthZVj-13" target="VNSc3Ovu_4cjdaYthZVj-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-13" value="网卡-2&lt;br&gt;（外部网络）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
+          <mxGeometry x="400" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VNSc3Ovu_4cjdaYthZVj-1" source="VNSc3Ovu_4cjdaYthZVj-15" target="VNSc3Ovu_4cjdaYthZVj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-15" value="OVS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
+          <mxGeometry x="170" y="320" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VNSc3Ovu_4cjdaYthZVj-1" source="VNSc3Ovu_4cjdaYthZVj-17" target="VNSc3Ovu_4cjdaYthZVj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-17" value="路由器公网IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
+          <mxGeometry x="320" y="590" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VNSc3Ovu_4cjdaYthZVj-18" value="公网" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="VNSc3Ovu_4cjdaYthZVj-1">
           <mxGeometry x="310" y="670" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
